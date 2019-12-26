@@ -17,6 +17,8 @@ This project is based on these main resources:
 * Train 
 ```
 python train.py 1
+```
 * Play with AI
 ```
 python train.py 0
+```
