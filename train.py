@@ -37,5 +37,9 @@ class TrainPipeline():
                 self.game.start_play(self.mcts_player)
 
 if __name__ == '__main__':
-    training_pipeline = TrainPipeline(flag_is_shown = True, flag_is_train = False)
+    if(len(sys.argv) == 2 and sys.argv[1] == "1"):
+        flag_is_shown = False; flag_is_train = True
+    else:
+        flag_is_shown = True; flag_is_train = False
+    training_pipeline = TrainPipeline(flag_is_shown, flag_is_train)
     training_pipeline.train()
