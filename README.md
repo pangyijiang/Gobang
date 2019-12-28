@@ -1,6 +1,5 @@
 # Gobang
-<img src="/img/Gobang.png" width=400 >
-<img src="/img/loss.png" width=400 >
+<img src="Gobang.png" width=400 >
 
 # OverView
 Gobang(Five in a Row) reinforcement learning by [AlphaZero](https://deepmind.com/research/publications/mastering-game-go-without-human-knowledge) methods.
